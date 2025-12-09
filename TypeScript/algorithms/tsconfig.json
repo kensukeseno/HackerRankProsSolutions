@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "lib": ["ES6"]
+  },
+  "include": ["*.ts"], // Look for all .ts files in the root
+  "exclude": ["node_modules"]
+}
